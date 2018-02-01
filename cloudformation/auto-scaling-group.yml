@@ -142,7 +142,7 @@ Resources:
         Value: ToDo
         PropagateAtLaunch: true
       - Key: Name
-        Value: !Sub "ToDo app ($S3Prefix)"
+        Value: !Sub "ToDo app (${S3Prefix})"
         PropagateAtLaunch: true
 
   # TODO uncomment this to create the load balancer
